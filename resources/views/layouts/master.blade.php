@@ -15,7 +15,7 @@
     <nav class="navbar navbar-static-top" style="background-color: rgba(25,40,65,1);">
         <div class="container">
             <div class="navbar-header">
-                <span class="navbar-brand">Test BRM</span>
+                <a href="{{url('/')}}"> <span class="navbar-brand">Test BRM</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
