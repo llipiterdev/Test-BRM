@@ -14,11 +14,12 @@ class CreateProductoTable extends Migration
     public function up()
     {
         Schema::create('producto', function (Blueprint $table) {
-            $table->bigIncrements('id_producto');
+            $table->bigIncrements('id');
             $table->string('nombre', 40);
             $table->integer('cantidad');
-            $table->dateTime('fecha_vencimiento');
+            $table->date('fecha_vencimiento');
             $table->decimal('precio', 8 ,2);
+            $table->softDeletes();
             $table->timestamps();
         });
     }
