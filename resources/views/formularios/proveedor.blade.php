@@ -35,5 +35,17 @@
 
         </form>
     </div>
+
+</div>
+<div class="container">
+
+    <p><span style="color:black; color:green;" class="glyphicon glyphicon-ok" aria-hidden="true"></span> 1. Formulario
+        donde el
+        proveedor entrega los productos: el proveedor selecciona el producto e ingresa la cantidad que habrá
+        en el inventario
+        , la fecha de vencimiento y el precio. Cuando el proveedor ingresa la información, la información se
+        ingresa en el inventario.</p>
+
+
 </div>
 @endsection
